@@ -1,4 +1,4 @@
-# bert-sentiment movie review
+# Bert-sentiment movie review
 
 ## Dataset   
 https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews?resource=download
