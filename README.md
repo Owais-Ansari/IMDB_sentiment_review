@@ -1,16 +1,16 @@
-# bert-sentiment
+# bert-sentiment movie review
 requirements
 
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu113
-python>=3.7
-torch==1.9.1+cu102
-torchaudio==0.9.1
-transformers==4.25.1
-matplotlib==3.5.1
-textblob==0.17.1
-emoji==2.0.0
-nlpaug==1.1.11
-sckit-learn==1.0.1
+
+python>=3.8 \n
+torch==1.9.1+cu102 \n
+torchaudio==0.9.1 \n
+transformers==4.25.1 \n
+matplotlib==3.5.1 \n
+textblob==0.17.1 \n
+emoji==2.0.0 \n
+nlpaug==1.1.11 \n
+sckit-learn==1.0.1 \n
 
 
 
