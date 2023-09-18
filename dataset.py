@@ -43,12 +43,12 @@ class BERTDataset:
         inputs = self.tokenizer.encode_plus(
             review,
             None,
-            add_special_tokens=True,
+            add_special_tokens=True,  #cls token to separate sentences
             max_length=self.max_len,
             pad_to_max_length=True,
         )
-        ids = inputs["input_ids"]
-        mask = inputs["attention_mask"]
+        ids = inputs["input_ids"] # tokens
+        mask = inputs["attention_mask"] #which token should be more attended 
         token_type_ids = inputs["token_type_ids"]
         return {
             "ids": torch.tensor(ids, dtype=torch.long),
